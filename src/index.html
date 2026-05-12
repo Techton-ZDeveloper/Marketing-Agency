@@ -1,0 +1,384 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVIGATION BAR HERE -->
+  <header class="p-1 sticky top-0 bg-blue-100">
+    <div class=" max-w-7xl m-auto p-3 flex justify-between items-center ">
+      <img class="w-45" src="images/Logo.png" alt="">
+
+      <div class="md:block space-x-8 text-[18px] font-medium hidden text-gray-600">
+          <a class="text-gray-500 hover:text-blue-600 font-bold" href="#">How It Works</a>
+          <a class="text-gray-500 hover:text-blue-600 font-bold" href="">Our Work</a>
+          <a class="text-gray-500 hover:text-blue-600 font-bold" href="">Pricing</a>
+          <a class="text-gray-500 hover:text-blue-600 font-bold" href="">About Us</a>
+      </div>
+
+      <div class="flex gap-4">
+        <a class="hidden md:block px-8 py-3 bg-blue-600 text-white rounded-full font-medium border border-blue-600 cursor-pointer hover:bg-blue-500" href="">Book A Call</a>
+      </div>
+
+      <div id="menu-btn" class="pr-8 md:hidden w-2 h-2 space-y-1">
+          <div class="w-8 h-1 bg-gray-900"></div>
+          <div class="w-6 h-1 bg-gray-900"></div>
+          <div class="w-4 h-1 bg-gray-900"></div>
+      </div>
+    </div>
+    <nav id="mobile-menu" class="md:hidden hidden space-y-12 text-[18px] font-medium mt-4">
+      <div class="flex flex-col items-center justify-center">
+        <a class="hover:text-white hover:bg-blue-500 px-6 py-2 rounded-4xl w-full text-center" href="#">How It Works</a>
+        <a class="hover:text-white hover:bg-blue-500 px-6 py-2 rounded-4xl w-full text-center" href="about.html">Our Work</a>
+        <a class="hover:text-white hover:bg-blue-500 px-6 py-2 rounded-4xl w-full text-center" href="courses.html">Pricing</a>
+        <a class="hover:text-white hover:bg-blue-500 px-6 py-2 rounded-4xl w-full text-center" href="instructors.html">About Us</a>
+      </div>
+
+      <div class="flex flex-col space-y-4 mx-6">
+        <a class="text-center px-8 py-3 bg-blue-600 text-white rounded-full font-medium border border-blue-600 cursor-pointer hover:bg-blue-500" href="">Book A Call</a>
+      </div>
+    </nav>
+  </header>
+  <hr class="border-t-2 border-[#e2e2e2]">
+
+    <!-- SECTION ONE HERE -->
+    
+    <section class="px-6">
+      <div class="flex flex-col md:flex-row max-w-7xl m-auto justify-center items-center">
+        <div>
+          <h1 class="text-6xl font-bold py-10 md:text-7xl">We Take <br>Care Of <br>Your Brand</h1>
+          <p class="text-[18px] text-gray-600">We care about our work and we care about our clients.</p>
+          <div class="py-8">
+            <input class="border-2 border-gray-200 rounded-full bg-gray-50 py-2 px-3" type="text" placeholder="Enter your email">
+            <button class="bg-blue-600 py-2 px-4 rounded-full text-white cursor-pointer">Let's Talk</button>
+          </div>
+        </div>
+
+        <div class="my-10 md:pl-60">
+          <img class="md:w-96" src="images/Image-01.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION TWO -->
+    <section class="bg-gray-50">
+      <div class="max-w-7xl m-auto py-10">
+        <div class="pt-8">
+          <h1 class="text-2xl text-center py-10 font-bold">Companies We Worked With</h1>
+        </div>
+
+        <div class="pb-12 pt-6">
+          <div class="flex flex-col md:flex-row">
+            <div class="flex flex-row px-6 justify-center space-x-12 space-y-6">
+              <img class="w-24 h-8" src="images/spotify.png" alt="">
+              <img class="w-24 h-8" src="images/Google.png" alt="">
+            </div>
+            
+            <div class="flex flex-row px-6 justify-center space-x-12 space-y-6">
+              <img class="w-24 h-8" src="images/Uber.png" alt="">
+              <img class="w-24 h-8" src="images/microsoft.png" alt="">
+            </div>
+
+            <div class="flex flex-row px-6 justify-center space-x-12 space-y-6">
+              <img class="w-24 h-8" src="images/shopify.png" alt="">
+              <img class="w-24 h-8" src="images/evernote.png" alt="">
+            </div>
+
+            <div class="flex flex-row px-6 justify-center space-x-12 space-y-6">
+              <img class="w-24 h-8" src="images/adobe.png" alt="">
+              <img class="w-24 h-8" src="images/paypal.png" alt="">
+            </div>
+
+            <div class="flex flex-row px-6 justify-center space-x-12 space-y-6">
+              <img class="w-24 h-8" src="images/amazon.png" alt="">
+              <img class="w-24 h-8" src="images/asana.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION THREE -->
+    <section class="py-25">
+      <div class="flex flex-col px-5 md:flex-row justify-between max-w-7xl m-auto">
+        <div>
+          <div class="flex flex-row space-x-20 pb-5">
+            <div>
+              <h3 class="text-5xl font-bold">245%</h3>
+              <p class="text-[13px]">More revenues for the brand</p>
+            </div>
+            <div class="md:pl-40">
+              <h3 class="text-5xl font-bold">130k+</h3>
+              <p class="text-[13px]">Audiences reached</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row space-x-30 pb-10 md:justify-between">
+            <div class="">
+              <h3 class="text-5xl font-bold">50+</h3>
+              <p class="text-[13px]">Brands trust us</p>
+            </div>
+            <div class="md:pl-40">
+              <h3 class="text-5xl font-bold">24+</h3>
+              <p class="text-[13px]">Worldwide Awards</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="md:w-3/5 pl-40">
+          <h2 class="text-[44px]">Commitments</h2>
+          <p class="py-5 text-gray-500 text-[18px]">We are committed to working with you collaboratively to understand your goals and create a strategy that will achieve them.</p>
+          <a class="text-blue-600 pb-5 font-bold text-[18px]" href="">Learn More...</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION FOUR -->
+    <section class="py-15">
+      <div class="flex flex-col px-5 md:flex-row justify-between max-w-7xl m-auto">
+        <div>
+          <div>
+            <h2 class="font-bold text-5xl">How It Works</h2>
+            <p class="py-10 text-[18px] text-gray-600 md:w-2/3">We believe that the best way to create successful marketing campaigns is to work closely with our clients to understand their goals and challenges</p>
+            <img class="py-5 md:w-2/3" src="images/Rectangle 160.png" alt="">
+          </div>
+        </div>
+
+        <div>
+          <div class="flex flex-row space-x-6 pt-6">
+            <div class="place-content-center">
+              <img class="w-40 md:w-30" src="images/icon-01.png" alt="">
+            </div>
+            <div>
+              <h2 class="text-4xl font-bold">Discovery</h2>
+              <p class="py-6 md:text-[14px]">We meet with you to learn about your business, your goals, and your target audiences.</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row space-x-6 py-6">
+            <div class="place-content-center">
+              <img class="w-44 md:w-33" src="images/icon-02.png" alt="">
+            </div>
+            <div>
+              <h2 class="text-4xl font-bold">Strategy</h2>
+              <p class="py-6 md:text-[14px]">We develop a customized marketing strategy that is based on your unique needs and goals.</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row space-x-6">
+            <div class="place-content-center">
+              <img class="w-40 md:w-29" src="images/icon-03.png" alt="">
+            </div>
+            <div>
+              <h2 class="text-4xl font-bold">Execution</h2>
+              <p class="py-6 md:text-[14px]">We execute our strategy using the latest digital marketing tools and techniques.</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row space-x-6 py-6">
+            <div class="place-content-center">
+              <img class="w-40 md:w-30" src="images/icon-04.png" alt="">
+            </div>
+            <div>
+              <h2 class="text-4xl font-bold">Measurement</h2>
+              <p class="py-6 md:text-[14px]">We track the results of our campaigns so that we can make adjustments as needed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION FIVE -->
+    <section>
+      <div class="text-center">
+        <h2 class="text-5xl font-bold">Our Work</h2>
+        <p class="text-[14px] py-8">A glimpse of our portfolio</p>
+      </div>
+
+      <div class="flex flex-col px-5 py-10 text-2xl md:flex-row max-w-7xl m-auto justify-between items-center">
+        <div class="md:items-center w-96 h-64">
+          <img src="images/apple.png" alt="">
+          <p class="text-center">Apple</p>
+        </div>
+
+        <div class="md:w-96 h-64">
+          <img src="images/coke.png" alt="">
+          <p class="text-center">Coca-cola</p>
+        </div>
+
+        <div class="md:w-96 h-64">
+          <img class="rounded-[35px]" src="images/sneaker.jpg" alt="">
+          <p class="text-center">Nike</p>
+        </div>
+      </div>
+      
+      <div class="text-center py-6 md:pt-30">
+        <a class="px-8 py-4 rounded-full text-[20px] bg-blue-600 text-white hover:bg-blue-500" href="">See More</a>
+      </div>
+    </section>
+
+    <!-- SECTION SIX -->
+    <section class="py-25">
+      <div class="px-5">
+        <div class="flex flex-col rounded-[15px] bg-blue-500 p-6 text-white md:flex-row max-w-7xl m-auto justify-between">
+          <div>
+            <h2 class="text-5xl py-8 md:text-[48px] pl-10">Elevate Your <br>Brand Today!</h2>
+          </div>
+
+          <div class="pb-10 md:w-3/6 pr-10">
+            <p class="py-12 text-[18px]">Ready to transform your digital dresence? Let's create magic together! book our services now! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, alias sapiente ratione a exercitationem ad dolorum option</p>
+            <a class="py-3 px-7 bg-white rounded-full text-black font-bold" href="">Book Call</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION SEVEN -->
+    <section>
+      <div class="flex flex-col px-5 md:flex-row max-w-7xl m-auto justify-between">
+        <div class="py-8">
+          <img src="images/team-members.PNG" alt="">
+        </div>
+
+        <div class="md:w-2/4">
+          <h2 class="text-5xl py-8 font-semibold">Meet Our Team</h2>
+          <p class="pb-25 pt-4 text-[18px]">Discover the brilliance behind Linroxx. Our team blends innovation and artistry to craft digital wonders that captivate</p>
+          <div class="pb-15 md:pt-10">
+            <a class="px-8 py-3 rounded-full text-[20px] bg-blue-600 text-white hover:bg-blue-500" href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION EIGHT -->
+    <section>
+      <div class="text-center">
+        <h2 class="py-13 text-2xl font-semibold md:text-5xl">What Our Client Said About Us</h2>
+        <div class="md:flex flex-row max-w-7xl m-auto">
+          <div class="bg-gray-100 mx-6 p-5 rounded-xl hover:bg-blue-300 text-white md:h-70">
+            <div class="flex flex-row justify-center items-center">
+              <div class="pr-10">
+                <img class="rounded-full" src="images/passport-01.PNG" alt="">
+              </div>
+              <div>
+                <p class="text-[20px] text-left font-semibold text-gray-800">Jacob Smith</p>
+                <p class="text-left text-gray-800">Chief Manager</p>
+              </div>
+            </div>
+              <p class="text-left text-gray-800 pt-6 md:text-[13px]">My vision came alive effortlessly. Their blend of casual and professional approach made the process a breeze. Creativity flowed, and the results were beyond my expectations.</p>
+          </div>
+
+          <div class=" bg-gray-100 mx-6 p-5 my-12 pb-5 rounded-xl hover:bg-blue-300 text-white md:my-0 pb-0 h-70">
+            <div class="flex flex-row justify-center items-center">
+              <div class="pr-10">
+                <img class="rounded-full" src="images/passport-02.PNG" alt="">
+              </div>
+              <div>
+                <p class="text-[20px] text-left font-semibold text-gray-800">Jason Watts</p>
+                <p class="text-left text-gray-800">HR Officer</p>
+              </div>
+            </div>
+              <p class="text-left text-gray-800 pt-6 md:text-[13px]">My vision came alive effortlessly. Their blend of casual and professional approach made the process a breeze. Creativity flowed, and the results were beyond my expectations.</p>
+          </div>
+
+          <div class=" bg-gray-100 mx-6 p-5 mb-12 rounded-xl hover:bg-blue-300 text-white md:h-70">
+            <div class="flex flex-row justify-center items-center">
+              <div class="pr-10">
+                <img class="rounded-full" src="images/passport-03.PNG" alt="">
+              </div>
+              <div>
+                <p class="text-[20px] text-left font-semibold text-gray-800">Newton Eric</p>
+                <p class="text-left text-gray-800">Design Engineer</p>
+              </div>
+            </div>
+              <p class="text-left text-gray-800 pt-6 md:text-[13px]">My vision came alive effortlessly. Their blend of casual and professional approach made the process a breeze. Creativity flowed, and the results were beyond my expectations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION NINE -->
+    <section>
+      <div class="bg-gray-900 p-6 pb-10 my-20 rounded-[14px] flex flex-col justify-between items-center md:flex-row max-w-7xl m-auto">
+        <div class="pb-10">
+          <h2 class="text-white text-[20px] py-10">Start Your Journey <br>With Us Now</h2>
+          <a class="text-white text-[16px] bg-blue-600 py-2 px-6 rounded-full" href="">Start Now</a>
+        </div>
+        <div class=""><img src="images/Ellipse 86.png" alt=""></div>
+      </div>
+    </section>
+
+    <!-- SECTION TEN -->
+    <section>
+      <div class="px-6">
+        <div>
+          <p class="py-4 border-y-2 border-gray-200 font-semibold text-[17px]">How do I signup for the project?</p>
+          <p class="py-4 border-y-2 border-gray-200 font-semibold text-[17px]">What thing that I should prepare before starting?</p>
+          <p class="py-4 border-y-2 border-gray-200 font-semibold text-[17px]">Does my company need help for marketing advices?</p>
+        </div>
+        <div class="py-15">
+          <h2 class="text-3xl font-semibold">How Can We Help You?</h2>
+          <p class="py-5 text-gray-700">Follow our newsletter We will regularly update our latest project and availability</p>
+          <div>
+            <input class="bg-gray-50 py-3 px-5 rounded-full" type="text" name="" id="" placeholder="Enter Your Email">
+            <a class="bg-blue-600 py-3 px-5 text-white rounded-full" href="">Let's Talk</a>
+            <div class="py-8">
+              <a class="text-blue-600 text-[20px] font-semibold" href="">More FAQ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION ELEVEN -->
+    <section class="bg-gray-50 py-10">
+      <div class="px-6 flex flex-col justify-center">
+        <div>
+          <img class="w-45" src="images/Logo.png" alt="">
+          <div class="flex flex-row justify-between w-45 py-15">
+            <img class="w-6" src="images/instagram.png" alt="">
+            <img class="w-6" src="images/tweeter.png" alt="">
+            <img class="w-6" src="images/facebook.png" alt="">
+          </div>
+          <div>
+            <a class="bg-blue-600 text-white text-[20px] py-3 px-6 rounded-full hover:bg-blue-800" href="">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="py-15 flex flex-row justify-between text-[12px]">
+          <div class="pb-5">
+            <p>Work with us</p>
+            <p>Advertise with us</p>
+            <p>Support us</p>
+            <p>Business advice</p>
+          </div>
+
+          <div class="pb-5">
+            <p>Private coaching</p>
+            <p>Our work</p>
+            <p>Our Commitment</p>
+            <p>Our team</p>
+          </div>
+
+          <div class="pb-5">
+            <p>About us</p>
+            <p>FAQs</p>
+            <p>Report a Bug</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuBtn.addEventListener("click", () =>
+    {mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+</body>
+</html>
